@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #C2D9FF;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 30px;
+}
+.ground{
+    min-width: 60vw;
+    min-height: 70vh;
+    background-color: #8E8FFA;
+    color: white;
+    border-radius: 30px 30px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.player{
+    min-width: 150px;
+    min-height: 200px;
+    background-color: #191048;
+    border-radius: 20px 20px ;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.player img{
+    width: 40%;
+    height: 45%;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    font-weight: 400;
+    color: white;
+    border: 2px solid #191048;
+    border-radius: 10px 10px;
+    margin: 10px 20px;
+    background-color: #191048;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    /* margin: 20px 0px 10px 0px; */
+    color: #191048;
+}
+footer{
+    font-size: 1rem;
+}
+@media screen and (max-width:425px) {
+
+    h1{
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        /* margin: 20px 0px 10px 0px; */
+        color: #191048;
+    }
+
+    footer{
+        font-size: 0.5rem;
+    }
+    .ground{
+        min-width: 60vw;
+        min-height: 70vh;
+        background-color: #8E8FFA;
+        color: white;
+        border-radius: 30px 30px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 0 auto;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .player{
+        min-width: 150px;
+        min-height: 200px;
+        background-color: #191048;
+        border-radius: 20px 20px ;
+        margin: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .player img{
+        width: 40%;
+        height: 45%;
+    }
+}
